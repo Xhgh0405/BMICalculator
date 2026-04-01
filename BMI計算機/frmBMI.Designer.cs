@@ -224,7 +224,7 @@
             this.btnHistory.Location = new System.Drawing.Point(3, 160);
             this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(63, 50);
+            this.btnHistory.Size = new System.Drawing.Size(63, 58);
             this.btnHistory.TabIndex = 3;
             this.btnHistory.Text = "查看紀錄";
             this.btnHistory.UseVisualStyleBackColor = true;
@@ -243,10 +243,10 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnLogin.Location = new System.Drawing.Point(77, 102);
+            this.btnLogin.Location = new System.Drawing.Point(83, 125);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(101, 38);
+            this.btnLogin.Size = new System.Drawing.Size(101, 31);
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "登入";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -255,10 +255,10 @@
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnRegister.Location = new System.Drawing.Point(77, 145);
+            this.btnRegister.Location = new System.Drawing.Point(83, 160);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(101, 38);
+            this.btnRegister.Size = new System.Drawing.Size(101, 30);
             this.btnRegister.TabIndex = 7;
             this.btnRegister.Text = "註冊";
             this.btnRegister.UseVisualStyleBackColor = true;
