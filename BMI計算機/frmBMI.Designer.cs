@@ -65,21 +65,20 @@
             this.grpInput.Controls.Add(this.lblWeight);
             this.grpInput.Controls.Add(this.lblHeight);
             this.grpInput.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grpInput.Location = new System.Drawing.Point(51, 34);
-            this.grpInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpInput.Location = new System.Drawing.Point(38, 27);
+            this.grpInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpInput.Name = "grpInput";
-            this.grpInput.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpInput.Size = new System.Drawing.Size(363, 136);
+            this.grpInput.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpInput.Size = new System.Drawing.Size(272, 109);
             this.grpInput.TabIndex = 0;
             this.grpInput.TabStop = false;
             // 
             // rdoFemale
             // 
             this.rdoFemale.AutoSize = true;
-            this.rdoFemale.Location = new System.Drawing.Point(225, 106);
-            this.rdoFemale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdoFemale.Location = new System.Drawing.Point(169, 85);
             this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(48, 26);
+            this.rdoFemale.Size = new System.Drawing.Size(40, 22);
             this.rdoFemale.TabIndex = 8;
             this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "女";
@@ -89,10 +88,9 @@
             // rdoMale
             // 
             this.rdoMale.AutoSize = true;
-            this.rdoMale.Location = new System.Drawing.Point(100, 106);
-            this.rdoMale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdoMale.Location = new System.Drawing.Point(75, 85);
             this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(48, 26);
+            this.rdoMale.Size = new System.Drawing.Size(40, 22);
             this.rdoMale.TabIndex = 7;
             this.rdoMale.TabStop = true;
             this.rdoMale.Text = "男";
@@ -104,9 +102,10 @@
             this.lblGender.AutoSize = true;
             this.lblGender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblGender.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblGender.Location = new System.Drawing.Point(44, 109);
+            this.lblGender.Location = new System.Drawing.Point(33, 87);
+            this.lblGender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(52, 25);
+            this.lblGender.Size = new System.Drawing.Size(41, 20);
             this.lblGender.TabIndex = 6;
             this.lblGender.Text = "性別";
             this.lblGender.Click += new System.EventHandler(this.label1_Click_2);
@@ -114,10 +113,10 @@
             // btnRun
             // 
             this.btnRun.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnRun.Location = new System.Drawing.Point(225, 16);
-            this.btnRun.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRun.Location = new System.Drawing.Point(169, 13);
+            this.btnRun.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRun.Name = "btnRun";
-            this.btnRun.Size = new System.Drawing.Size(101, 78);
+            this.btnRun.Size = new System.Drawing.Size(76, 62);
             this.btnRun.TabIndex = 5;
             this.btnRun.Text = "計算";
             this.btnRun.UseVisualStyleBackColor = true;
@@ -125,19 +124,19 @@
             // 
             // txtWeight
             // 
-            this.txtWeight.Location = new System.Drawing.Point(100, 64);
-            this.txtWeight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtWeight.Location = new System.Drawing.Point(75, 51);
+            this.txtWeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtWeight.Name = "txtWeight";
-            this.txtWeight.Size = new System.Drawing.Size(100, 30);
+            this.txtWeight.Size = new System.Drawing.Size(76, 26);
             this.txtWeight.TabIndex = 4;
             this.txtWeight.TextChanged += new System.EventHandler(this.txtWeight_TextChanged);
             // 
             // txtHeight
             // 
-            this.txtHeight.Location = new System.Drawing.Point(100, 22);
-            this.txtHeight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtHeight.Location = new System.Drawing.Point(75, 18);
+            this.txtHeight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.Size = new System.Drawing.Size(100, 30);
+            this.txtHeight.Size = new System.Drawing.Size(76, 26);
             this.txtHeight.TabIndex = 2;
             this.txtHeight.TextChanged += new System.EventHandler(this.txtHeight_TextChanged);
             // 
@@ -146,9 +145,10 @@
             this.lblWeight.AutoEllipsis = true;
             this.lblWeight.AutoSize = true;
             this.lblWeight.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblWeight.Location = new System.Drawing.Point(5, 64);
+            this.lblWeight.Location = new System.Drawing.Point(4, 51);
+            this.lblWeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblWeight.Name = "lblWeight";
-            this.lblWeight.Size = new System.Drawing.Size(88, 25);
+            this.lblWeight.Size = new System.Drawing.Size(70, 20);
             this.lblWeight.TabIndex = 3;
             this.lblWeight.Text = "體重(kg)";
             // 
@@ -156,9 +156,10 @@
             // 
             this.lblHeight.AutoSize = true;
             this.lblHeight.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblHeight.Location = new System.Drawing.Point(1, 20);
+            this.lblHeight.Location = new System.Drawing.Point(1, 16);
+            this.lblHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHeight.Name = "lblHeight";
-            this.lblHeight.Size = new System.Drawing.Size(93, 25);
+            this.lblHeight.Size = new System.Drawing.Size(74, 20);
             this.lblHeight.TabIndex = 2;
             this.lblHeight.Text = "身高(cm)";
             // 
@@ -167,11 +168,11 @@
             this.grpOutput.Controls.Add(this.lblResult);
             this.grpOutput.Controls.Add(this.lblBMI);
             this.grpOutput.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grpOutput.Location = new System.Drawing.Point(51, 176);
-            this.grpOutput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpOutput.Location = new System.Drawing.Point(38, 141);
+            this.grpOutput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpOutput.Name = "grpOutput";
-            this.grpOutput.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpOutput.Size = new System.Drawing.Size(363, 100);
+            this.grpOutput.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpOutput.Size = new System.Drawing.Size(272, 80);
             this.grpOutput.TabIndex = 1;
             this.grpOutput.TabStop = false;
             this.grpOutput.Text = "輸出";
@@ -180,9 +181,10 @@
             // lblResult
             // 
             this.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblResult.Location = new System.Drawing.Point(192, 44);
+            this.lblResult.Location = new System.Drawing.Point(144, 35);
+            this.lblResult.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(164, 22);
+            this.lblResult.Size = new System.Drawing.Size(123, 18);
             this.lblResult.TabIndex = 2;
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblResult.Click += new System.EventHandler(this.label1_Click_1);
@@ -192,9 +194,10 @@
             this.lblBMI.AutoEllipsis = true;
             this.lblBMI.AutoSize = true;
             this.lblBMI.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblBMI.Location = new System.Drawing.Point(1, 44);
+            this.lblBMI.Location = new System.Drawing.Point(1, 35);
+            this.lblBMI.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBMI.Name = "lblBMI";
-            this.lblBMI.Size = new System.Drawing.Size(181, 25);
+            this.lblBMI.Size = new System.Drawing.Size(145, 20);
             this.lblBMI.TabIndex = 4;
             this.lblBMI.Text = "身體質量指數(BMI)";
             this.lblBMI.Click += new System.EventHandler(this.label1_Click);
@@ -210,21 +213,18 @@
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.lblUsername);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox1.Location = new System.Drawing.Point(469, 50);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(352, 40);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(267, 226);
+            this.groupBox1.Size = new System.Drawing.Size(208, 186);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "會員系統";
             // 
             // btnHistory
             // 
-            this.btnHistory.Location = new System.Drawing.Point(3, 160);
-            this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHistory.Location = new System.Drawing.Point(2, 120);
             this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(63, 58);
+            this.btnHistory.Size = new System.Drawing.Size(55, 54);
             this.btnHistory.TabIndex = 3;
             this.btnHistory.Text = "查看紀錄";
             this.btnHistory.UseVisualStyleBackColor = true;
@@ -234,19 +234,20 @@
             // 
             this.lblLoginStatus.AutoSize = true;
             this.lblLoginStatus.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblLoginStatus.Location = new System.Drawing.Point(72, 198);
+            this.lblLoginStatus.Location = new System.Drawing.Point(54, 158);
+            this.lblLoginStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLoginStatus.Name = "lblLoginStatus";
-            this.lblLoginStatus.Size = new System.Drawing.Size(112, 25);
+            this.lblLoginStatus.Size = new System.Drawing.Size(89, 20);
             this.lblLoginStatus.TabIndex = 9;
             this.lblLoginStatus.Text = "目前未登入";
             // 
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnLogin.Location = new System.Drawing.Point(83, 125);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLogin.Location = new System.Drawing.Point(62, 100);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(101, 31);
+            this.btnLogin.Size = new System.Drawing.Size(76, 25);
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "登入";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -255,10 +256,10 @@
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnRegister.Location = new System.Drawing.Point(83, 160);
-            this.btnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegister.Location = new System.Drawing.Point(62, 128);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(101, 30);
+            this.btnRegister.Size = new System.Drawing.Size(76, 28);
             this.btnRegister.TabIndex = 7;
             this.btnRegister.Text = "註冊";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -266,10 +267,9 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(120, 69);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Location = new System.Drawing.Point(90, 55);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 34);
+            this.txtPassword.Size = new System.Drawing.Size(76, 29);
             this.txtPassword.TabIndex = 6;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -277,40 +277,41 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblPassword.Location = new System.Drawing.Point(19, 71);
+            this.lblPassword.Location = new System.Drawing.Point(14, 57);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(52, 25);
+            this.lblPassword.Size = new System.Drawing.Size(41, 20);
             this.lblPassword.TabIndex = 5;
             this.lblPassword.Text = "密碼";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(120, 24);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsername.Location = new System.Drawing.Point(90, 19);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(100, 34);
+            this.txtUsername.Size = new System.Drawing.Size(76, 29);
             this.txtUsername.TabIndex = 4;
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblUsername.Location = new System.Drawing.Point(19, 26);
+            this.lblUsername.Location = new System.Drawing.Point(14, 21);
+            this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(52, 25);
+            this.lblUsername.Size = new System.Drawing.Size(41, 20);
             this.lblUsername.TabIndex = 3;
             this.lblUsername.Text = "帳號";
             // 
             // frmBMI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpOutput);
             this.Controls.Add(this.grpInput);
             this.Location = new System.Drawing.Point(390, 25);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmBMI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI計算機";
